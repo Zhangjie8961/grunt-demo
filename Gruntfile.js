@@ -2,8 +2,8 @@ module.exports = function (grunt) {
     grunt.initConfig({
       htmlmin: {
         options: {
-      removeComments:true,
-          collapseWhitespace: true
+            removeComments:true,
+            collapseWhitespace: true
         },
         files: {
           src: './index.html',

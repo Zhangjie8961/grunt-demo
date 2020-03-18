@@ -25,7 +25,7 @@ $(function(){
         validate_required($username.val(),$namemsg);
         validate_required($telphone.val(),$telmsg);
         validate_required($password.val(),$pwmsg);
-        validate_required($pwid.val(),$pwidmsg,);
+        validate_required($pwid.val(),$pwidmsg);
         isPoneAvailable($telphone);
         namevailable($username)
     });
